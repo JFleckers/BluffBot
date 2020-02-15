@@ -16,8 +16,3 @@ class Cup:
         while x <= 5:
             self.cup.append(Die())
             x += 1
-
-c = Cup()
-c.roll()
-for i in c.cup:
-    print(i.die)
