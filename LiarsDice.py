@@ -28,5 +28,6 @@ class Cup:
             self.cup.append(Die())
             x += 1
     
-    def lose(self)
+    def lose(self):
         self.count -= 1
+# if you can see this then that's a yeehaw moment
